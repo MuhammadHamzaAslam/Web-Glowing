@@ -48,8 +48,8 @@ img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-  text-align: center;
-  align-content: center;
+  /* text-align: center; */
+  /* align-content: center; */
 }
 
 html.w-mod-touch * {
