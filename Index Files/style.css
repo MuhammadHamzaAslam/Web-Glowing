@@ -14,7 +14,8 @@ body {
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333
+  color: #333;
+  overflow-x: hidden;
 }
 .navigation{
   position: sticky;
@@ -25,23 +26,15 @@ body {
   padding-top: 1.9%;
   padding-left: 2%;
   padding-right: 2%;
-  height: 12vh;
-}
-@media screen and (min-width:0px) and (max-width: 550px) {
-      .websiteLogo img{
-            margin-top: 1px !important;
-      }
-}
-@media screen and (min-width:0px) and (max-width: 1550px) {
-  .navigation{
-        height: 50%;
-  }
+  height: 50%;
 }
 
+
 .websiteLogo img{
-  width: 70px;
+  width: 85px !important;
   margin-top: -25%;
   align-content: center !important;
+  user-select: none;
 }
 /* navbar styling end */
 img {

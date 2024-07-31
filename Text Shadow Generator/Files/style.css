@@ -159,3 +159,22 @@ button:hover {
         height: 70vh;
     }
 }
+.navigation{
+    position: sticky;
+    top: 0%;
+    background-color: #ffffff;
+    border-bottom: 1px solid silver;
+    z-index: 99999;
+    padding-top: 1.9%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 50%;
+  }
+  
+  
+  .websiteLogo img{
+    width: 85px !important;
+    margin-top: -25%;
+    align-content: center !important;
+    user-select: none;
+  }
