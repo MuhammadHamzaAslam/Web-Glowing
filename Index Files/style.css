@@ -20,27 +20,36 @@ body {
   position: sticky;
   top: 0%;
   background-color: #ffffff;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid silver;
   z-index: 99999;
   padding-top: 1.9%;
   padding-left: 2%;
   padding-right: 2%;
   height: 12vh;
 }
-@media screen and (min-width:0px) and (max-width: 1350px) {
+@media screen and (min-width:0px) and (max-width: 550px) {
+      .websiteLogo img{
+            margin-top: 1px !important;
+      }
+}
+@media screen and (min-width:0px) and (max-width: 1550px) {
   .navigation{
         height: 50%;
   }
 }
+
 .websiteLogo img{
   width: 70px;
   margin-top: -25%;
+  align-content: center !important;
 }
 /* navbar styling end */
 img {
   max-width: 100%;
   vertical-align: middle;
-  display: inline-block
+  display: inline-block;
+  text-align: center;
+  align-content: center;
 }
 
 html.w-mod-touch * {
