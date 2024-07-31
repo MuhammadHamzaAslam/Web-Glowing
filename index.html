@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html data-wf-domain="www.oliverbibby.com" data-wf-page="5de9d96149103cfdc69842a1" data-wf-site="5de9d96149103c44ad9842a0">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Web Glowing</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="Index Files/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="images/webglowing.png" rel="icon" type="image/x-icon" />
+    <!-- light/dark mode styling -->
+    <style>
+        .checkbox-wrapper-54 input[type="checkbox"] {
+            visibility: hidden;
+            display: none;
+        }
+
+        .checkbox-wrapper-54 *,
+        .checkbox-wrapper-54 ::after,
+        .checkbox-wrapper-54 ::before {
+            box-sizing: border-box;
+        }
+
+        /* The switch - the box around the slider */
+        .checkbox-wrapper-54 .switch {
+            --width-of-switch: 3.5em;
+            --height-of-switch: 2em;
+            /* size of sliding icon -- sun and moon */
+            --size-of-icon: 1.4em;
+            /* it is like a inline-padding of switch */
+            --slider-offset: 0.3em;
+            position: relative;
+            width: var(--width-of-switch);
+            height: var(--height-of-switch);
+            display: inline-block;
+        }
+
+        /* The slider */
+        .checkbox-wrapper-54 .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #f4f4f5;
+            transition: .4s;
+            border-radius: 30px;
+        }
+
+        .checkbox-wrapper-54 .slider:before {
+            position: absolute;
+            content: "";
+            height: var(--size-of-icon, 1.4em);
+            width: var(--size-of-icon, 1.4em);
+            border-radius: 20px;
+            left: var(--slider-offset, 0.3em);
+            top: 50%;
+            transform: translateY(-50%);
+            background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
+            ;
+            transition: .4s;
+        }
+
+        .checkbox-wrapper-54 input:checked+.slider {
+            background-color: #303136;
+        }
+
+        .checkbox-wrapper-54 input:checked+.slider:before {
+            left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
+            background: #303136;
+            /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
+            box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        ::-webkit-scrollbar {
+            width: 14px !important;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f0f0f0 !important;
+            border-radius: 10px !important;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: black !important;
+            border-radius: 10px !important;
+            border: 3px solid #f0f0f0 !important;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #0056b3 !important;
+        }
+        @font-face {
+            font-family: 'joining';
+            src: url(Fonts/typo-round/Typo_Round_Bold_Demo.otf);
+        }
+        .autoText{
+            font-family: 'joining' !important;
+        }
+        div{
+            font-family: 'joining' !important;
+        }
+    </style>
+
+</head>
+
+<body class="body">
+
+    <!-- cursor animation start -->
+    <!-- <div class="ball"></div> -->
+    <!-- cursor animation end -->
+
+    <!-- Navbar Started -->
+    <div class="cursor-wrapper">
+        <div class="cursor"></div>
+        <div class="w-embed">
+            <style>
+                .cursor-wrapper {
+                    pointer-events: none;
+                }
+            </style>
+        </div>
+    </div>
+
+    <div class="navigation wf-section navbarContainer">
+        <div class="columns-20 w-row">
+            <div class="column-49 w-col w-col-6">
+                <a data-w-id="28cf5821-0d92-d9cd-6758-77335d413f84" href="/" style="text-decoration: none;"
+                    aria-current="page" class="w-inline-block w--current">
+                    <div class="websiteLogo"><img src="images/webglowing.png" alt=""></div>
+                </a>
+            </div>
+            <div class="column-45 w-col w-col-6">
+                <div data-w-id="28cf5821-0d92-d9cd-6758-77335d413f87" class="div-block-76">
+                    <div class="div-block-89 burgertop"></div>
+                    <div class="div-block-89"></div>
+                    <div class="div-block-89 burgerbot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbf4" class="menubox wf-section">
+        <div class="div-block-83">
+            <a data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbf6" href="index.html" aria-current="page"
+                class="link-10 toplink w--current" style="font-size: 20px;">Home</a>
+            <a data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbfa" href="Box Shadow Generator/index.html" class="link-10"
+                style="font-size: 20px;">Box Shadow Generator</a>
+            <a data-w-id="ce839481-e78e-11b1-e9bc-a6bf3fb1ab3e" href="Text To Speech/index.html" class="link-10"
+                style="font-size: 20px;">Text To Speech</a>
+            <a data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbfc" href="Text Shadow Generator/index.html" class="link-10"
+                style="font-size: 20px;">Text Shadow Generator</a>
+            <a data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbfc" href="Border Radius/index.html" class="link-10"
+                style="font-size: 20px;">Border Radius Generator</a>
+            <a data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbfc" href="QR Code Generator/index.html" class="link-10"
+                style="font-size: 20px;">QR Code Generator</a>
+            <a data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbfc" href="Gradient Color Generator/index.html"
+                class="link-10" style="font-size: 20px;">CSS Gradient Color Generator</a>
+            <a data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbfc" href="Border/index.html" class="link-10"
+                style="font-size: 20px;">CSS Border Generator</a>
+            <a data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbfc" href="CSS Cursor/index.html" class="link-10"
+                style="font-size: 20px;">CSS Cursor Generator</a>
+            <!-- <a data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbfc" href="Nav Bar Generator/index.html" class="link-10" style="font-size: 20px;">Responsive Nav Bar Generator</a> -->
+        </div>
+        <div data-w-id="16cd0e00-560c-af6b-bec4-3522cb9fbbfe" class="div-block-84">
+            <a href="#" class="link-block w-inline-block">
+                <img src="https://uploads-ssl.webflow.com/5de9d96149103c44ad9842a0/61d51dc25a747f7f551f999a_x.svg"
+                    loading="lazy" alt="" class="image-85" />
+            </a>
+        </div>
+    </div>
+    <!-- Navbar Ended -->
+
+    <!-- animated ball start -->
+    <div class="html-embed-9 w-embed w-iframe">
+        <div style="position:absolute;right:0px;top:0px;overflow:hidden; height:20px; width:300px; z-index:1000;">&nbsp;
+        </div>
+        <iframe src="https://streamable.com/e/ex2j2j?autoplay=1" frameborder="0" width="100%" height="100%"
+            allowfullscreen allow="autoplay" class="animatedBall"
+            style="width:30%;height:100%;position:absolute;right:0px;top:5px;overflow:hidden;"></iframe>
+    </div>
+    <!-- animated ball end-->
+
+    <!-- Animated Section started -->
+    <div class="herobar wf-section">
+        <div class="container-23 w-container">
+            <h1 data-w-id="00dc0b85-4ce7-0eb2-aa92-0204a1831e5d" class="v2-h1 homehero">Enhance Your Web Design </h1>
+            <h1 data-w-id="00dc0b85-4ce7-0eb2-aa92-0204a1831e5f" class="v2-h1 homehero">With Our Amazing Tools </h1>
+            <h1 data-w-id="00dc0b85-4ce7-0eb2-aa92-0204a1831e61" class="v2-h1 homehero autoText"><span
+                    style="color: #007bff;font-weight: bolder;" class="autoText"></span></h1>
+        </div>
+    </div>
+    <!-- Aimated Section ended here -->
+
+    <!-- Services Section Started Here -->
+    <div class="portfolio-section wf-section">
+        <div class="container-23 w-container">
+            <h2 data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dbf" class="vh-h4 sample-mobile">
+                Our <span>Services</span>
+            </h2>
+            <div class="columns-17 w-row">
+                <div class="column-40 w-col w-col-6">
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dc5" class="div-block-66"></div>
+                    <a data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dc6" href="Box Shadow Generator/index.html"
+                        class="w-inline-block">
+                        <img src="images/boxshadow.jpg" loading="lazy" data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dc7"
+                            srcset="images/boxshadow.jpg 500w, images/boxshadow.jpg 1302w" sizes="100vw"
+                            alt="Box Shadow" class="image-64" />
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dc8" class="div-block-72"></div>
+                    <a href="Box Shadow Generator/index.html" class="link-block-4 w-inline-block">
+                        <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dc9" class="vh-p1">Box Shadow Generator</div>
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dcb" class="vh-p2">Effortlessly create beautiful
+                        box shadows with our intuitive tool</div>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dcd" class="div-block-68"></div>
+                    <a data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dce" href="Text Shadow Generator/index.html"
+                        class="w-inline-block">
+                        <img src="images/textshadow.jpg" loading="lazy" data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dcf"
+                            srcset="images/textshadow.jpg 500w,images/textshadow.jpg 1302w" sizes="100vw"
+                            alt="Text Shadow Generator" class="image-64" />
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd0" class="div-block-72"></div>
+                    <a href="Text Shadow Generator/index.html" class="link-block-6 w-inline-block">
+                        <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd1" class="vh-p1">Text Shadow Generator</div>
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd3" class="vh-p2">Add depth and style to your text
+                        with customizable shadows</div>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd5" class="div-block-68"></div>
+                    <a data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd6" href="QR Code Generator/index.html"
+                        class="w-inline-block">
+                        <img src="images/qrcode.jpg" loading="lazy" data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd7"
+                            srcset="images/qrcode.jpg 500w, images/qrcode.jpg 1302w" sizes="100vw"
+                            alt="QR Code Generator" class="image-64" />
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd8" class="div-block-72"></div>
+                    <a href="QR Code Generator/index.html" class="link-block-8 w-inline-block">
+                        <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd9" class="vh-p1">QR Code Generator</div>
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97ddb" class="vh-p2">Generate QR codes for links,
+                        text, and more with ease</div>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd5" class="div-block-68"></div>
+                    <a data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd6" href="Border/index.html" class="w-inline-block">
+                        <img src="images/cssborder generator.jpg" loading="lazy"
+                            data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd7"
+                            srcset="images/cssborder generator.jpg 500w, images/cssborder generator.jpg 1302w"
+                            sizes="100vw" alt="CSS Border Generator" class="image-64" />
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd8" class="div-block-72"></div>
+                    <a href="Border/index.html" class="link-block-8 w-inline-block">
+                        <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dd9" class="vh-p1">CSS Border Generator</div>
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97ddb" class="vh-p2">Create unique and attractive
+                        border styles for your web elements</div>
+                </div>
+
+                <div class="column-41 w-col w-col-6">
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dde" class="div-block-67"></div>
+                    <div>
+                        <a data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de0" href="Text To Speech/index.html"
+                            class="w-inline-block">
+                            <img src="images/texttospeech.jpg" loading="lazy"
+                                data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de1"
+                                srcset="images/texttospeech.jpg 500w, images/texttospeech.jpg 1302w" sizes="100vw"
+                                alt="Text To Speech" class="image-64" />
+                        </a>
+                    </div>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de2" class="div-block-72"></div>
+                    <a href="Text To Speech/index.html" class="link-block-5 w-inline-block">
+                        <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de3" class="vh-p1">Text To Speech</div>
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de5" class="vh-p2">Convert text to natural-sounding
+                        speech for various applications</div>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de7" class="div-block-69"></div>
+                    <a data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de8" href="Border Radius/index.html"
+                        class="w-inline-block">
+                        <img src="images/borderradius.jpg" loading="lazy"
+                            data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de9"
+                            srcset="images/borderradius.jpg 500w,images/borderradius.jpg 1302w" sizes="100vw"
+                            alt="Border Radius Generator" class="image-64" />
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dea" class="div-block-72"></div>
+                    <a href="Border Radius/index.html" class="link-block-7 w-inline-block">
+                        <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97deb" class="vh-p1">Border Radius Generator
+                        </div>
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97ded" class="vh-p2">Easily create rounded corners
+                        and elliptical shapes for your elements</div>
+                    <a data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de8" href="Gradient Color Generator/index.html"
+                        class="w-inline-block">
+                        <img src="images/colorgradient.jpg" loading="lazy"
+                            data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de9"
+                            srcset="images/colorgradient.jpg 500w,images/colorgradient.jpg 1302w" sizes="100vw"
+                            alt="Gradient Color Generator" class="image-64" />
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dea" class="div-block-72"></div>
+                    <a href="Gradient Color Generator/index.html" class="link-block-7 w-inline-block">
+                        <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97deb" class="vh-p1">CSS Gradient Color Generator
+                        </div>
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97ded" class="vh-p2">Design beautiful gradient
+                        backgrounds for your web pages</div>
+                    <a data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de8" href="CSS Cursor/index.html"
+                        class="w-inline-block">
+                        <img src="images/cursorgenerator.jpg" loading="lazy"
+                            data-w-id="f91687a9-c21a-d777-9ce9-398e30a97de9"
+                            srcset="images/cursorgenerator.jpg 500w, images/cursorgenerator.jpg 1302w" sizes="100vw"
+                            alt="CSS Cursor Generator" class="image-64" />
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97dea" class="div-block-72"></div>
+                    <a href="CSS Cursor/index.html" class="link-block-7 w-inline-block">
+                        <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97deb" class="vh-p1">CSS Cursor Generator</div>
+                    </a>
+                    <div data-w-id="f91687a9-c21a-d777-9ce9-398e30a97ded" class="vh-p2">Customize your cursor style to
+                        enhance user experience</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service Section Ended Here -->
+
+    <!-- About section started here -->
+    <div class="section-40 wf-section" style="margin-top: 10%;">
+        <div class="container-22 w-container">
+            <div class="columns-16 w-row">
+                <div class="column-51 w-col w-col-3">
+                    <h3 data-w-id="ab6e979c-3e86-c675-8b7a-19273a854b8f"
+                        style="opacity:0;-webkit-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                        class="v2-h2 homeabout">About</h3>
+                </div>
+                <div data-w-id="ab6e979c-3e86-c675-8b7a-19273a854b91"
+                    style="opacity:0;-webkit-transform:translate3d(0, 32px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 32px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 32px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 32px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                    class="column-56 w-clearfix w-col w-col-9">
+                    <h4 class="vh-h3">Welcome to Alpha Coders Website: Web Glowing! We are passionate about making web
+                        development easier and more enjoyable for everyone. Our suite of tools is designed to help you
+                        create stunning websites with ease, whether you're a seasoned developer or just starting out.
+                    </h4>
+                    <p class="p"><span id="black">Box Shadow Generator:</span> Effortlessly create beautiful box shadows
+                        with our intuitive tool. <br>
+                        <span id="black"><a href="Text Shadow Generator/index.html">Text Shadow Generator:</a></span>
+                        Add depth and style to your text with customizable shadows. <br>
+                        <span id="black"><a href="Text To Speech/index.html" target="_blank">Text to Speech
+                                Generator:</a></span> Convert text to natural-sounding speech for various applications.
+                        <br>
+                        <span id="black"><a href="Border Radius/index.html" target="_blank">Border Radius
+                                Generator:</a></span> Easily create rounded corners and elliptical shapes for your
+                        elements. <br>
+                        <span id="black"><a href="CSS Cursor/index.html" target="_blank">CSS Cursor
+                                Generator:</a></span> Customize your cursor style to enhance user experience <br>
+                        <span id="black"><a href="Gradient Color Generator/index.html" target="_blank">CSS Gradient
+                                Generator:</a></span> Design beautiful gradient backgrounds for your web pages. <br>
+                        <span id="black"><a href="QR Code Generator/index.html" target="_blank">QR Code
+                                Generator:</a></span> Generate QR codes for links, text, and more with ease. <br>
+                        <span id="black"><a href="Border/index.html" target="_blank">CSS Border Generator:</a></span>
+                        Create unique and attractive border styles for your web elements.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Section Ended Here -->
+
+
+
+    <!--  -->
+    <div class="section-27 wf-section">
+        <div class="container-35 w-container">
+            <h2 data-w-id="67f3b257-32b8-9ede-3660-159621582094" class="vh-h4">
+                A little bit about<br />our skillset.
+            </h2>
+            <div class="columns-15 w-row">
+                <div data-w-id="67f3b257-32b8-9ede-3660-159621582099" class="column-42 w-col w-col-6">
+                    <h4 class="vh-h5">Management</h4>
+                    <p class="vh-p3">An experienced design manager, I have lead people and projects that surpass clients
+                        expectations while adhering to strict deadlines.</p>
+                    <h4 class="vh-h5">Analysis</h4>
+                    <p class="vh-p3">Building good design is just the beginning, all designs are built on a basis of
+                        data analytics and when launched are then tested against metrics and adjusted accordingly.</p>
+                </div>
+                <div data-w-id="67f3b257-32b8-9ede-3660-1596215820a2" class="column-43 w-col w-col-6">
+                    <h4 class="vh-h5">Experience</h4>
+                    <p class="vh-p3">Over a decade working in a wide variety of businesses from the entertainment
+                        industry to digital, automotive and advertising.</p>
+                    <h4 class="vh-h5">Passion</h4>
+                    <p class="vh-p3">Design remains a never-ending passion, I love working on a wide variety of projects
+                        and always strive to help businesses surpass their goals and expectations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wf-section">
+        <div class="div-block-75">
+            <a data-w-id="aa980c4a-8ea4-5c27-01a8-4ac7d9bf390b" href="#link" class="button-3 w-button">X</a>
+            <a href="#" class="link-9">Home</a>
+            <a href="#" class="link-9">Portfolio</a>
+            <a href="#" class="link-9">About</a>
+            <a href="#" class="link-9">Contact</a>
+        </div>
+    </div>
+    <div class="next-brand1 wf-section">
+        <div class="w-container">
+            <a href="Contact Form/index.html" class="link-block-3 w-inline-block">
+                <div data-w-id="3a282200-0d44-28a2-a105-2856797f5ef9" class="div-block-86">
+                    <div class="text-block-21">Get in touch</div>
+                    <img src="https://uploads-ssl.webflow.com/5de9d96149103c44ad9842a0/61d6ac196669d5ca1b2e08a6_circle.svg"
+                        loading="lazy" alt="" class="image-86" />
+                    <img src="https://uploads-ssl.webflow.com/5de9d96149103c44ad9842a0/61c7820b4c648111c685db9e_circl4.svg"
+                        loading="lazy"
+                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
+                        data-w-id="3a282200-0d44-28a2-a105-2856797f5efd" alt="" class="image-88" />
+                    <img src="https://uploads-ssl.webflow.com/5de9d96149103c44ad9842a0/61da467b191c4748e333d626_fade2.svg"
+                        loading="lazy" style="opacity:0" alt="" class="image-93" />
+                    <img src="https://uploads-ssl.webflow.com/5de9d96149103c44ad9842a0/61c7820b4c648111c685db9e_circl4.svg"
+                        loading="lazy"
+                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0deg) rotateZ(-150deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0deg) rotateZ(-150deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0deg) rotateZ(-150deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0deg) rotateZ(-150deg) skew(0, 0);transform-style:preserve-3d"
+                        data-w-id="3a282200-0d44-28a2-a105-2856797f5eff" alt="" class="image-87" />
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="footer-bar wf-section">
+        <div class="w-container">
+            <div class="text-block-19">Copyright © 2024, All Rights Reserved <a href="">web glowing</a> || This Website
+                is Made With <i class="fa-solid fa-heart" style="color: #ff0000;"></i> By Alpha Coders</div>
+        </div>
+    </div>
+
+
+    <script src="Index Files/app.js"></script>
+</body>
+
+</html>
