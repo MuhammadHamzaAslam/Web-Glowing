@@ -5,11 +5,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   body{
-    display: flex;
+    /* display: flex; */
     padding: 10px;
     min-height: 100vh;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     background: #ffffff;
   }
   .container{
@@ -17,6 +17,7 @@
     padding: 30px 35px 35px;
     background: #fff;
     border-radius: 10px;
+    margin: auto;
     box-shadow: 0 0px 20px rgba(0,0,0,0.1);
   }
   .container.disable .editor-panel,
